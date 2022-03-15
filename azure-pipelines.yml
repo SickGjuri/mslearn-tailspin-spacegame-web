@@ -8,9 +8,7 @@ trigger:
 
 pool:
   pool:
-  name: 'MyAgentPool'
-  demands:
-  - npm
+  vmImage: ubuntu-latest
 
 variables:
   buildConfiguration: 'Release'
